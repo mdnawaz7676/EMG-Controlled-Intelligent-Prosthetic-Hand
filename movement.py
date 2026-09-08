@@ -22,3 +22,4 @@ for file in files:
 
     for label, count in zip(*np.unique(labels, return_counts=True)):
         print(f"Label {label}: {count}")
+        print(" ")
